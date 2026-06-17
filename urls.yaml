@@ -3,22 +3,43 @@
 # 실행: python extract_keyword.py urls.yaml [output.csv]
 # ──────────────────────────────────────────────────────────────
 
-# 전역 설정 (선택사항 — URL별 설정으로 덮어쓸 수 있음)
+# 전역 설정 (선택사항 — URL별 설정으로 덮어쓸 수 있음-
 settings:
   max_pages: 500        # 도메인당 최대 크롤링 페이지 수 (기본 500)
   crawl_delay: 0.3      # 요청 간 대기 시간, 초 단위 (기본 0.3)
 
 urls:
-  # ── 단순 문자열 형식 (http/https 생략 가능) ──────────────────
-  - https://ddzk.co.kr/
-  - https://trigon.co.kr/
+  - url: https://bromptonlondon.com/index.html
+    label: 직접경쟁사-브롬톤런던
+    max_pages: 500
 
-  # ── 상세 형식: label·개별 설정 지정 ─────────────────────────
-  - url: https://www.samchuly.co.kr/
-    label: 삼천리자전거        # 로그 표시용 이름 (선택)
-    max_pages: 200             # 이 URL만 최대 200페이지로 제한
+  - url: https://bb5.co.kr/
+    label: 직접경쟁사-비비파이브
+    max_pages: 500
 
-  - url: https://www.giant-bicycles.com/kr
-    label: 자이언트코리아
-    max_pages: 300
-    crawl_delay: 0.5           # 이 사이트는 요청 간격을 더 길게
+  - url: https://www.sanbadasports.co.kr/
+    label: 직접경쟁사-산바다스포츠
+
+  - url: https://violi.kr/
+    label: 직접경쟁사-비올리
+
+  - url: https://smartstore.naver.com/javakorea?NaPm=ct%3D1jr9q3o5h%7Cci%3Dshopn%7Ctr%3Dmktlnk%7Chk%3D1dab1fc3fb2773cc5739af629b480fcbdce506a2%7Ctrx%3Dundefined
+    label: 직접경쟁사-자바코리아_스마트스토어
+
+  - url: https://java-korea.gitbook.io/manual
+    label: 직접경쟁사-자바코리아_매뉴얼
+
+  - url: https://www.patagonia.co.kr/
+    label: 라이프스타일-파타고니아
+
+  - url: https://www.lululemon.co.kr/ko-kr/home
+    label: 라이프스타일-룰루레몬
+
+  - url: https://www.nike.com/kr/
+    label: 라이프스타일-나이키
+
+  - url: https://www.aloyoga.com/ko-kr/
+    label: 라이프스타일-알로
+
+  - url: https://egattoc.com/
+    label: 웰니스-에가톳
