@@ -1,0 +1,23 @@
+settings:
+  max_pages: 20
+  crawl_delay: 0.3
+
+urls:
+
+  - url: https://www.hyponicmall.co.kr/main/index.php
+    label: 하이포닉
+
+  - url: https://kr.virbac.com/
+    label: 버박
+
+  - url: https://hellomypet.co.kr/
+    label: 헬로우마이펫
+
+  - url: https://gangajistory.com/
+    label: 강아지스토리
+
+  - url: https://pethug.co.kr/
+    label: 펫허그
+
+  - url: https://www.igroomkorea.co.kr/
+    label: 아이그룸

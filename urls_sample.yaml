@@ -1,6 +1,6 @@
 # ──────────────────────────────────────────────────────────────
 # URL 키워드 크롤러 입력 파일
-# 실행: python extract_keyword.py urls.yaml [output.csv]
+# 실행: python extract_keywords.py urls.yaml [output.csv]
 # ──────────────────────────────────────────────────────────────
 
 # 전역 설정 (선택사항 — URL별 설정으로 덮어쓸 수 있음)

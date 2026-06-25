@@ -5,7 +5,7 @@ URL 키워드 크롤러
 이미지(OCR)를 탐색하여 단어별 총 등장 횟수·고유 URL 수를 CSV로 저장합니다.
 
 사용법:
-    python extract_keyword.py <url_list_file> [output.csv]
+    python extract_keywords.py <url_list_file> [output.csv]
 
 입력 파일 형식 (권장순):
     - yaml: URL별 개별 설정·주석 지원 → urls.yaml 참고
